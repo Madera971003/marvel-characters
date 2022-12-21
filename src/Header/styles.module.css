@@ -1,0 +1,54 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 40px 100px 40px 120px;
+}
+
+.title {
+  font-size: 27px;
+  font-weight: 300;
+  line-height: 32px;
+  color: var(--secondary-color);
+}
+
+.inputContainer {
+  display: flex;
+  background-color: var(--secondary-color);
+  align-items: center;
+  border-radius: 4px 0px 0px 4px;
+}
+
+.searchIcon {
+  margin: 0 20px;
+}
+
+.deleteIcon {
+  margin: 0 20px 0 0;
+}
+
+.deleteIcon:hover {
+  cursor: pointer;
+}
+
+.searchInput {
+  width: 382px;
+  height: 55px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+.searchButton {
+  background-color: var(--primary-color);
+  width: 120px;
+  height: 57px;
+  font-size: 16px;
+  color: var(--secondary-color);
+  border: none;
+}
+
+.searchButton:hover {
+  cursor: pointer;
+}
